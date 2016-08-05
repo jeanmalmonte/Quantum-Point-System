@@ -13,6 +13,7 @@ Quantum System described in Yanofsky's and Mannucci's "Quantum Computing for Com
      
      
 Example of a quantum point system described in this exercise:
-
+```Haskell
 pointSystem1 :: (RealFloat a) => StateMatrix a
 pointSystem1 = [(0, (-3) :+ (-1)), (1, 0 :+ (-2)), (2, 0 :+ 1), (3, 2 :+ 0)]
+```
